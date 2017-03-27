@@ -41,7 +41,7 @@ li {
     background-color: #212f64;
 }
 
-img {
+#logo {
     position: absolute;
     width: 150px;
     margin: -55px 0 0 10px;
@@ -49,19 +49,28 @@ img {
 }
 
 #schoolinfo, #twitter, #calendar {
-    margin: 0 auto;
+    margin: 0 5px;
     height: auto;
     background-color: whitesmoke;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 #schoolinfo{width: 20%;}
 
 #twitter {width: 50%;}
 
-#calendar {width: 29%;}
+#calendar {width: 27%;}
 
 #whole {
     margin: 0 auto;
     width: 70%;
+}
+
+p {
+    padding: 10px;
+}
+
+#timg {
+    width: 100%;
 }
