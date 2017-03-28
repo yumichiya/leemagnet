@@ -25,7 +25,7 @@ li {
 }
 
 #dropcontent a {display: block;}
-#dropcontent a:hover, #dropall a:hover {background-color: #515f94;}
+#dropcontent a:hover, #dropall a:hover {background-color: #3f4f8c;}
 #dropcontent {
     display: none;
     position: absolute;
@@ -60,7 +60,7 @@ li {
 
 #twitter {width: 50%;}
 
-#calendar {width: 27%;}
+#calendar {width: 26%;}
 
 #whole {
     margin: 0 auto;
@@ -74,3 +74,5 @@ p {
 #timg {
     width: 100%;
 }
+
+
