@@ -57,16 +57,16 @@ li {
     float: left;
 }
 
-#schoolinfo{width: 20%;background-color: #212f64;font-family: 'Lato', sans-serif;border-top: 5px solid red;
+#schoolinfo{width: 22%;background-color: #212f64;font-family: 'Lato', sans-serif;border-top: 5px solid red;
 border-bottom: 5px solid red;}
 
 #twitter {width: 50%;}
 
-#calendar {width: 26%;}
+#calendar {width: 25%;}
 
 #whole {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 p {
@@ -139,4 +139,16 @@ footer {
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 10px;
+}
+
+#textalert {
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#textalertm {
+    color: white;
+    padding: 0 10px 10px;
+    font-size: 12px;
 }
