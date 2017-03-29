@@ -39,6 +39,8 @@ li {
 
 #contall {
     background-color: #212f64;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
 }
 
 #logo {
@@ -51,12 +53,12 @@ li {
 #schoolinfo, #twitter, #calendar {
     margin: 0 5px;
     height: auto;
-    background-color: whitesmoke;
     display: block;
     float: left;
 }
 
-#schoolinfo{width: 20%;}
+#schoolinfo{width: 20%;background-color: #212f64;font-family: 'Lato', sans-serif;border-top: 5px solid red;
+border-bottom: 5px solid red;}
 
 #twitter {width: 50%;}
 
@@ -69,10 +71,72 @@ li {
 
 p {
     padding: 10px;
+    color: white;
+    
 }
 
 #timg {
     width: 100%;
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px !important;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#socialcon {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #212f64;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footerlink {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.footercon {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#copy {
+    margin: 20px 0 0 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
